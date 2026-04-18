@@ -7,6 +7,8 @@ docs_dir: wiki
 
 theme:
   name: material
+  logo: images/logo.png
+  favicon: images/logo.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -15,8 +17,8 @@ theme:
     - search.share
   palette:
     scheme: default
-    primary: deep purple
-    accent: purple
+    primary: custom
+    accent: custom
 
 nav:
   - Home: index.md
@@ -90,6 +92,9 @@ nav:
     - Edward Marlo: originators/edward-marlo.md
     - Other Creators: originators/other-creators.md
   - Tricks Reference: tricks.md
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - toc:
