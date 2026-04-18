@@ -1,0 +1,98 @@
+site_name: Card College Wiki
+site_url: https://pipersean-jpg.github.io/card-college-wiki/
+site_description: A structured reference wiki on Roberto Giobbi's Card College series
+site_author: pipersean-jpg
+
+docs_dir: wiki
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+  palette:
+    scheme: default
+    primary: deep purple
+    accent: purple
+
+nav:
+  - Home: index.md
+  - Techniques:
+    - The Physical Foundation:
+      - Hand Positions: hand-positions.md
+      - Fundamentals: fundamentals.md
+      - Breaks and Steps: breaks-and-steps.md
+    - Card Control:
+      - Controls: controls.md
+      - Overhand Shuffle Controls: overhand-shuffle-controls.md
+      - Convincing Control: convincing-control.md
+      - Bluff Pass: bluff-pass.md
+    - False Shuffles:
+      - False Shuffles: false-shuffles.md
+      - Overhand False Shuffles: overhand-false-shuffles.md
+      - Riffle False Shuffles: riffle-false-shuffles.md
+      - The Zarrow Shuffle: zarrow-shuffle.md
+      - The Faro Shuffle: faro-shuffle.md
+    - False Cuts: false-cuts.md
+    - Forces:
+      - Forces: forces.md
+      - The Classic Force: classic-force.md
+      - The Riffle Force: riffle-force.md
+      - Other Forces: other-forces.md
+    - Palming:
+      - Palming: palming.md
+      - Top Palm: top-palm.md
+      - Bottom Palm and Gambler's Cop: bottom-palm.md
+    - The Pass:
+      - The Pass: the-pass.md
+      - The Invisible Pass: invisible-pass.md
+    - Lifts, Changes, and Switches:
+      - The Double Lift: double-lift.md
+      - The Top Change: top-change.md
+      - Color Changes: color-changes.md
+      - Card Switches: card-switches.md
+      - Packet Switches: packet-switches.md
+    - False Counts and Displays:
+      - False Counts and Displays: false-counts.md
+      - The Ascanio Spread: ascanio-spread.md
+    - Utility Techniques:
+      - The Glide: glide.md
+      - The Key Card: key-card.md
+      - The Hindu Shuffle: hindu-shuffle.md
+      - The Spread Cull: spread-cull.md
+      - Culling: culling.md
+      - The Crimp: crimp.md
+      - The Glimpse: glimpse.md
+      - Reverses: reverses.md
+    - Advanced Techniques:
+      - The Multiple Shift: multiple-shift.md
+      - Tilt: tilt.md
+      - The Side Steal: side-steal.md
+      - False Dealing: false-dealing.md
+      - Lapping: lapping.md
+      - Stacking: stacking.md
+      - Estimation: estimation.md
+      - Sandwich Techniques: sandwich-techniques.md
+  - Performance Theory:
+    - Performance Theory: performance-theory.md
+    - Misdirection: misdirection.md
+    - Timing: timing.md
+    - Trick Construction: trick-construction.md
+    - Flourishes: flourishes.md
+  - Originators:
+    - Dai Vernon: originators/dai-vernon.md
+    - Arturo de Ascanio: originators/arturo-de-ascanio.md
+    - Juan Tamariz: originators/juan-tamariz.md
+    - S.W. Erdnase: originators/sw-erdnase.md
+    - Edward Marlo: originators/edward-marlo.md
+    - Other Creators: originators/other-creators.md
+  - Tricks Reference: tricks.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
